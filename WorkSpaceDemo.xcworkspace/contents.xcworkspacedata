@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:WSMainProject/WSMainProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WSLibraryFirst/WSLibraryFirst.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WSLibrarySecond/WSLibrarySecond.xcodeproj">
+   </FileRef>
+</Workspace>

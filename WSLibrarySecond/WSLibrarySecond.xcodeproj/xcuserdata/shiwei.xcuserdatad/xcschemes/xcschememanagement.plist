@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Lib2Resource.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WSLibrarySecond.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>89897B811F94F0BA00A98B5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89897B9E1F94F56F00A98B5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89897BB01F94F76E00A98B5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89897BF21F94FC5100A98B5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89897C121F94FFA900A98B5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
