@@ -53,7 +53,7 @@
 
 
 - (IBAction)testCategoryFromLibrary:(UIButton *)sender {
-    //使用符号（一个空函数），是的category会被链接；或者在other linker flag内添加-ObjC;http://blog.csdn.net/crash163/article/details/52088096
+    //使用符号（一个空函数），是的category会被链接；或者在other linker flag内添加-ObjC,category添加的方法默认不会被链接;http://blog.csdn.net/crash163/article/details/52088096
     load_symbol_UIButton_name();
     [sender name];
 }
