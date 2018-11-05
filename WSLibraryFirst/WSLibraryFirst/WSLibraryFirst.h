@@ -12,4 +12,6 @@
 
 -(void)test;
 
+-(int)showNumber:(NSString *)a;
+
 @end

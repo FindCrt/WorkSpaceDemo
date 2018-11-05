@@ -23,6 +23,7 @@
     //测试库的类调用
     WSLibraryFirst *libFirst = [[WSLibraryFirst alloc] init];
     [libFirst test];
+    NSLog(@"%d",3+[libFirst showNumber:@"33"]);
     
     //测试资源加载
     UIImageView *mainAppImgView = _testImgViews.firstObject;
@@ -49,6 +50,9 @@
     }
     
     
+    NSBundle *bundle = [NSBundle bundleForClass:[WSLibraryFirst class]];
+    NSString *frmaeworkPath = [bundle pathForResource:@"代理" ofType:@"png"];
+    NSLog(@"frmaeworkPath: %@",frmaeworkPath);
 }
 
 

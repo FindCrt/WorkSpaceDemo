@@ -14,4 +14,9 @@
     NSLog(@"library fist call succeed!");
 }
 
+-(int)showNumber:(NSString *)a{
+    NSLog(@"AAA: %@",a);
+    return [a intValue];
+}
+
 @end

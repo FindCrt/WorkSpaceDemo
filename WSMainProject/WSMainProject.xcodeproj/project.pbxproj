@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187B7CC6218FF4DF00821D67 /* libWSLibraryFirst.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187B7CBB218FE27D00821D67 /* libWSLibraryFirst.a */; };
+		187B7CC7218FF4E500821D67 /* Lib1Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89897C1D1F94FFEB00A98B5D /* Lib1Resource.bundle */; };
 		89897B331F94F04D00A98B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897B321F94F04D00A98B5D /* main.m */; };
 		89897B361F94F04D00A98B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897B351F94F04D00A98B5D /* AppDelegate.m */; };
 		89897B391F94F04E00A98B5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897B381F94F04E00A98B5D /* ViewController.m */; };
@@ -16,9 +18,7 @@
 		89897B4C1F94F04E00A98B5D /* WSMainProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897B4B1F94F04E00A98B5D /* WSMainProjectTests.m */; };
 		89897B571F94F04E00A98B5D /* WSMainProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897B561F94F04E00A98B5D /* WSMainProjectUITests.m */; };
 		89897B8F1F94F42200A98B5D /* tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89897B8E1F94F42200A98B5D /* tree.jpg */; };
-		89897BCD1F94FB3600A98B5D /* libWSLibraryFirst.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89897BCB1F94FB3600A98B5D /* libWSLibraryFirst.a */; };
 		89897BCE1F94FB3600A98B5D /* libWSLibrarySecond.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89897BCC1F94FB3600A98B5D /* libWSLibrarySecond.a */; };
-		89897C1E1F94FFEB00A98B5D /* Lib1Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89897C1D1F94FFEB00A98B5D /* Lib1Resource.bundle */; };
 		89897C201F94FFF400A98B5D /* Lib2Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89897C1F1F94FFF400A98B5D /* Lib2Resource.bundle */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187B7CA5218FDD9300821D67 /* FristFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FristFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B7CB9218FE23000821D67 /* FirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B7CBB218FE27D00821D67 /* libWSLibraryFirst.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWSLibraryFirst.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B7CC1218FEC4E00821D67 /* FirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89897B2E1F94F04D00A98B5D /* WSMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89897B321F94F04D00A98B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89897B341F94F04D00A98B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89897BCD1F94FB3600A98B5D /* libWSLibraryFirst.a in Frameworks */,
+				187B7CC6218FF4DF00821D67 /* libWSLibraryFirst.a in Frameworks */,
 				89897BCE1F94FB3600A98B5D /* libWSLibrarySecond.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +161,10 @@
 		89897BA81F94F6CC00A98B5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				187B7CC1218FEC4E00821D67 /* FirstFramework.framework */,
+				187B7CBB218FE27D00821D67 /* libWSLibraryFirst.a */,
+				187B7CB9218FE23000821D67 /* FirstFramework.framework */,
+				187B7CA5218FDD9300821D67 /* FristFrameWork.framework */,
 				89897C1F1F94FFF400A98B5D /* Lib2Resource.bundle */,
 				89897C1D1F94FFEB00A98B5D /* Lib1Resource.bundle */,
 				89897BCB1F94FB3600A98B5D /* libWSLibraryFirst.a */,
@@ -232,7 +240,7 @@
 				TargetAttributes = {
 					89897B2D1F94F04D00A98B5D = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UML9BQURX9;
+						DevelopmentTeam = 457J2FRWRF;
 						ProvisioningStyle = Automatic;
 					};
 					89897B461F94F04E00A98B5D = {
@@ -274,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89897C1E1F94FFEB00A98B5D /* Lib1Resource.bundle in Resources */,
+				187B7CC7218FF4E500821D67 /* Lib1Resource.bundle in Resources */,
 				89897C201F94FFF400A98B5D /* Lib2Resource.bundle in Resources */,
 				89897B411F94F04E00A98B5D /* LaunchScreen.storyboard in Resources */,
 				89897B8F1F94F42200A98B5D /* tree.jpg in Resources */,
@@ -455,10 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UML9BQURX9;
+				DEVELOPMENT_TEAM = 457J2FRWRF;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../WSLibraryFirst/WSLibraryFirst";
 				INFOPLIST_FILE = WSMainProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = shiwei.WSMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,10 +477,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UML9BQURX9;
+				DEVELOPMENT_TEAM = 457J2FRWRF;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../WSLibraryFirst/WSLibraryFirst";
 				INFOPLIST_FILE = WSMainProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = shiwei.WSMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

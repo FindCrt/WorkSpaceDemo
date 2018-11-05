@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187B7C91218FDD1100821D67 /* 代理.png in Resources */ = {isa = PBXBuildFile; fileRef = 187B7C8C218FD60700821D67 /* 代理.png */; };
+		187B7CAF218FE20800821D67 /* FirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 187B7CAD218FE20800821D67 /* FirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187B7CB3218FE21B00821D67 /* WSLibraryFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897BC11F94F79900A98B5D /* WSLibraryFirst.m */; };
+		187B7CB4218FE21B00821D67 /* UIButton+name.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897C221F9502A300A98B5D /* UIButton+name.m */; };
+		187B7CB7218FE22200821D67 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89897BDF1F94FBD900A98B5D /* Info.plist */; };
+		187B7CBF218FEA5E00821D67 /* cabbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89897BE31F94FC0700A98B5D /* cabbage.jpg */; };
 		89897BC21F94F79900A98B5D /* WSLibraryFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897BC11F94F79900A98B5D /* WSLibraryFirst.m */; };
 		89897BC31F94F79900A98B5D /* WSLibraryFirst.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89897BC01F94F79900A98B5D /* WSLibraryFirst.h */; };
-		89897BE41F94FC0700A98B5D /* cabbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89897BE31F94FC0700A98B5D /* cabbage.jpg */; };
 		89897C231F9502A300A98B5D /* UIButton+name.m in Sources */ = {isa = PBXBuildFile; fileRef = 89897C221F9502A300A98B5D /* UIButton+name.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		187B7C8C218FD60700821D67 /* 代理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理.png"; sourceTree = "<group>"; };
+		187B7C99218FDD4C00821D67 /* FristFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FristFrameWork.h; sourceTree = "<group>"; };
+		187B7C9A218FDD4C00821D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B7CAB218FE20800821D67 /* FirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B7CAD218FE20800821D67 /* FirstFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstFramework.h; sourceTree = "<group>"; };
+		187B7CAE218FE20800821D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89897BBE1F94F79900A98B5D /* libWSLibraryFirst.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWSLibraryFirst.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		89897BC01F94F79900A98B5D /* WSLibraryFirst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLibraryFirst.h; sourceTree = "<group>"; };
 		89897BC11F94F79900A98B5D /* WSLibraryFirst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLibraryFirst.m; sourceTree = "<group>"; };
@@ -38,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		187B7CA7218FE20800821D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89897BBB1F94F79900A98B5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,11 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187B7C98218FDD4C00821D67 /* FristFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				187B7C99218FDD4C00821D67 /* FristFrameWork.h */,
+				187B7C9A218FDD4C00821D67 /* Info.plist */,
+			);
+			path = FristFrameWork;
+			sourceTree = "<group>";
+		};
+		187B7CAC218FE20800821D67 /* FirstFramework */ = {
+			isa = PBXGroup;
+			children = (
+				187B7CAD218FE20800821D67 /* FirstFramework.h */,
+				187B7CAE218FE20800821D67 /* Info.plist */,
+			);
+			path = FirstFramework;
+			sourceTree = "<group>";
+		};
 		89897B641F94F09C00A98B5D = {
 			isa = PBXGroup;
 			children = (
 				89897BBF1F94F79900A98B5D /* WSLibraryFirst */,
 				89897BDE1F94FBD900A98B5D /* Lib1Resource */,
+				187B7C98218FDD4C00821D67 /* FristFrameWork */,
+				187B7CAC218FE20800821D67 /* FirstFramework */,
 				89897B6E1F94F09C00A98B5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +107,7 @@
 			children = (
 				89897BBE1F94F79900A98B5D /* libWSLibraryFirst.a */,
 				89897BDD1F94FBD900A98B5D /* Lib1Resource.bundle */,
+				187B7CAB218FE20800821D67 /* FirstFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +126,7 @@
 		89897BDE1F94FBD900A98B5D /* Lib1Resource */ = {
 			isa = PBXGroup;
 			children = (
+				187B7C8C218FD60700821D67 /* 代理.png */,
 				89897BE31F94FC0700A98B5D /* cabbage.jpg */,
 				89897BDF1F94FBD900A98B5D /* Info.plist */,
 			);
@@ -95,7 +135,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		187B7CA8218FE20800821D67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B7CAF218FE20800821D67 /* FirstFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		187B7CAA218FE20800821D67 /* FirstFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B7CB0218FE20800821D67 /* Build configuration list for PBXNativeTarget "FirstFramework" */;
+			buildPhases = (
+				187B7CA6218FE20800821D67 /* Sources */,
+				187B7CA7218FE20800821D67 /* Frameworks */,
+				187B7CA8218FE20800821D67 /* Headers */,
+				187B7CA9218FE20800821D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstFramework;
+			productName = FirstFramework;
+			productReference = 187B7CAB218FE20800821D67 /* FirstFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		89897BBD1F94F79900A98B5D /* WSLibraryFirst */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89897BC41F94F79900A98B5D /* Build configuration list for PBXNativeTarget "WSLibraryFirst" */;
@@ -139,6 +208,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = shiwei;
 				TargetAttributes = {
+					187B7CAA218FE20800821D67 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					89897BBD1F94F79900A98B5D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UML9BQURX9;
@@ -165,22 +238,41 @@
 			targets = (
 				89897BBD1F94F79900A98B5D /* WSLibraryFirst */,
 				89897BDC1F94FBD900A98B5D /* Lib1Resource */,
+				187B7CAA218FE20800821D67 /* FirstFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		187B7CA9218FE20800821D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B7CB7218FE22200821D67 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89897BDB1F94FBD900A98B5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89897BE41F94FC0700A98B5D /* cabbage.jpg in Resources */,
+				187B7CBF218FEA5E00821D67 /* cabbage.jpg in Resources */,
+				187B7C91218FDD1100821D67 /* 代理.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		187B7CA6218FE20800821D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B7CB3218FE21B00821D67 /* WSLibraryFirst.m in Sources */,
+				187B7CB4218FE21B00821D67 /* UIButton+name.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89897BBA1F94F79900A98B5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +292,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		187B7CB1218FE20800821D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FirstFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shiwei.FirstFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		187B7CB2218FE20800821D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FirstFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shiwei.FirstFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		89897B741F94F09C00A98B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,6 +511,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		187B7CB0218FE20800821D67 /* Build configuration list for PBXNativeTarget "FirstFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B7CB1218FE20800821D67 /* Debug */,
+				187B7CB2218FE20800821D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		89897B681F94F09C00A98B5D /* Build configuration list for PBXProject "WSLibraryFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -365,6 +536,7 @@
 				89897BC61F94F79900A98B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89897BE01F94FBD900A98B5D /* Build configuration list for PBXNativeTarget "Lib1Resource" */ = {
 			isa = XCConfigurationList;
@@ -373,6 +545,7 @@
 				89897BE21F94FBD900A98B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
